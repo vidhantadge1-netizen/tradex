@@ -1,0 +1,26 @@
+{
+  "name": "tradex-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TradeX - Smart Stock Trading and Portfolio Management Platform",
+  "scripts": {
+    "start:backend": "npm.cmd --prefix backend start",
+    "dev:backend": "npm.cmd --prefix backend run dev",
+    "dev:frontend": "npm.cmd --prefix frontend run dev",
+    "install:backend": "npm.cmd --prefix backend install",
+    "install:frontend": "npm.cmd --prefix frontend install",
+    "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install",
+    "seed": "npm.cmd --prefix backend run seed",
+    "test:backend": "npm.cmd --prefix backend test",
+    "build:frontend": "npm.cmd --prefix frontend run build"
+  },
+  "keywords": [
+    "trading",
+    "stock-market",
+    "portfolio-management",
+    "paper-trading",
+    "mern"
+  ],
+  "author": "TradeX Team",
+  "license": "MIT"
+}
