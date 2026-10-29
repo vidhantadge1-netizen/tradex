@@ -7,6 +7,7 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "seed": "node src/scripts/seed.js",
+    "verify:persistence": "node src/scripts/verifyPersistence.js",
     "test": "jest --detectOpenHandles --runInBand --forceExit"
   },
   "keywords": [

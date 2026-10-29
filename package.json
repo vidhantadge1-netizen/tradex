@@ -11,6 +11,7 @@
     "install:frontend": "npm.cmd --prefix frontend install",
     "install:all": "npm.cmd --prefix backend install && npm.cmd --prefix frontend install",
     "seed": "npm.cmd --prefix backend run seed",
+    "verify:db": "npm.cmd --prefix backend run verify:persistence",
     "test:backend": "npm.cmd --prefix backend test",
     "build:frontend": "npm.cmd --prefix frontend run build"
   },
